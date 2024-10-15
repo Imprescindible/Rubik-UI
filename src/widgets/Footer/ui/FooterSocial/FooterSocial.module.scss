@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 194px;
+
+  .rightSide {
+    width: 104px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.FooterSocial {
+  h3 {
+    color: #7d8184;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 8px;
+  }
+}

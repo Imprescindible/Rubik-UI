@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .text {
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 3.3px;
+    margin-bottom: 40px;
+  }
+
+  .string {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 80px;
+  }
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.sizeM {
+  font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 129px;
+  margin-top: 60px;
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 370px;
+  }
+  h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+  }
+  .logInLink {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+}
+
+span {
+  font-size: 16px;
+  font-weight: normal;
+}
+.passwordLink {
+  color: #db4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}

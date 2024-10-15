@@ -1,0 +1,93 @@
+.ContactPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+  gap: 30px;
+
+  .contacts {
+    display: inline-flex;
+    padding: 40px 35px 51px 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    gap: 18px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    width: 340px;
+    height: 457px;
+    font-size: 14px;
+    line-height: 21px;
+
+    .phoneCall {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      align-items: center;
+      h4 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .underline {
+      border-bottom: 1px solid grey;
+      width: 270px;
+      opacity: 0.5;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .formContainer {
+    display: inline-flex;
+    padding: 40px 32px 40px 31px;
+    justify-content: center;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    gap: 32px;
+    .inputWrapper {
+      display: flex;
+      gap: 16px;
+    }
+    textarea {
+      width: 865px;
+      height: 207px;
+      flex-shrink: 0;
+      border: none;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 13px;
+      resize: none;
+      background-color: #f5f5f5;
+    }
+  }
+}
+textarea::placeholder {
+  font-size: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.sendMessage {
+  width: 215px;
+
+  button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+}
+
+textarea:focus {
+  color: red;
+  outline: none;
+  border: none;
+}

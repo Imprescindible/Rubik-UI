@@ -1,0 +1,59 @@
+@import '@/app/styles/variables.scss';
+
+.header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: $accentColor;
+  .square {
+    height: 40px;
+    width: 20px;
+    background-color: $accentColor;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .headerName {
+    margin-bottom: 20px;
+  }
+}
+
+.browse {
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageWrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Categories {
+  padding-bottom: 70px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 8px;
+
+  .arrowBtn {
+    width: 46px;
+    height: 46px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 25px;
+  }
+}

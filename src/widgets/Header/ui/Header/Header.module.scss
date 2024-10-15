@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  align-items: center;
+  height: 76px;
+  border-bottom: 0.5px solid #d2d2a2;
+  .headerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+    font-size: 20px;
+    ul {
+      display: flex;
+      gap: 55px;
+    }
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}

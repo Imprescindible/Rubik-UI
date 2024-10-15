@@ -1,0 +1,275 @@
+// $someName: white;
+
+@mixin buttonDisabledStyles($border: #d1d1d6 1px solid) {
+  cursor: not-allowed;
+  background-color: #fafafa;
+  color: #d1d1d6;
+  border: $border;
+}
+
+.RubikButton {
+  font-family: 'Inter';
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  max-width: 184px;
+  text-overflow: ellipsis;
+}
+
+.buttonSizeExtraSmall {
+  min-width: 48px;
+  height: 36px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.accentFill {
+  background-color: #1570ef;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #175cd3;
+  }
+
+  &:active {
+    background-color: #1849a9;
+  }
+
+  &:focus {
+    background-color: #175cd3;
+    box-shadow: 0px 0px 0px 4px #2e90fa3d;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+    border: 1px solid #d1d1d6;
+  }
+}
+
+.accentOutline {
+  color: #175cd3;
+  border: 1px solid #84caff;
+  background-color: #fff;
+  &:hover {
+    color: #1849a9;
+    background-color: #eff8ff;
+  }
+  &:active {
+    color: #194185;
+    background-color: #d1e9ff;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #2e90fa3d;
+    background-color: #eff8ff;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+.accentGhost {
+  border: none;
+  color: #175cd3;
+  &:hover {
+    color: #1849a9;
+    background-color: #eff8ff;
+  }
+  &:active {
+    color: #194185;
+    background-color: #d1e9ff;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #2e90fa3d;
+    background-color: #eff8ff;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.accentText {
+  border: none;
+  color: #175cd3;
+  background-color: #fff;
+  &:active {
+    color: #194185;
+  }
+  &:active {
+    color: #194185;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles(none);
+  }
+}
+
+.primaryFill {
+  background-color: #26272b;
+  color: #fff;
+  &:hover {
+    background-color: #3f3f46;
+  }
+  &:active {
+    background-color: #131316;
+  }
+  &:focus {
+    background: #3f3f46;
+  }
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+.primaryOutline {
+  color: #d1d1d6;
+  border: 1px solid #d1d1d6;
+  background-color: #fff;
+  &:hover {
+    border-color: #d1d1d6;
+    background-color: #fafafa;
+  }
+  &:active {
+    border-color: #d1d1d6;
+    background-color: #f4f4f5;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+    border-color: #d1d1d6;
+    background-color: #fafafa;
+  }
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.primaryGhost {
+  border: none;
+  color: #51525c;
+  &:hover {
+    color: #3f3f46;
+    background-color: #fafafa;
+  }
+  &:active {
+    color: #26272b;
+    background-color: #f4f4f5;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+    background-color: #fafafa;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.primaryText {
+  border: none;
+  color: #51525c;
+  background-color: #fff;
+  &:hover {
+    color: #3f3f46;
+  }
+  &:active {
+    color: #26272b;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border: #d1d1d6 1px solid;
+    background-color: #fafafa;
+    color: #d1d1d6;
+  }
+}
+
+.dangerFill {
+  background-color: #d92d1f;
+  color: #fff;
+  &:hover {
+    background-color: #b42318;
+  }
+
+  &:active {
+    background-color: #912018;
+  }
+
+  &:focus {
+    background-color: #b42318;
+    box-shadow: 0px 0px 0px 4px #fcd1d0;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+.dangerOutline {
+  color: #b42318;
+  border: 1px solid #d92d1f;
+  background-color: #fff;
+  &:hover {
+    border-color: #912018;
+    background-color: #fef2f2;
+  }
+  &:active {
+    color: #912018;
+    border-color: #b42318;
+    background-color: #fee4e3;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #fbd2d0;
+    border-color: #d92d20;
+    background-color: #fef2f2;
+  }
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.dangerGhost {
+  border: none;
+  color: #b42318;
+  background-color: #fff;
+  &:hover {
+    color: #912018;
+    background-color: #fef3f2;
+  }
+  &:active {
+    color: #912018;
+    background-color: #fee4e3;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #fbd2d0;
+    background-color: #fef3f2;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.dangerText {
+  border: none;
+  color: #b42318;
+  background-color: #fff;
+  &:hover {
+    color: #912018;
+  }
+  &:active {
+    color: #912018;
+  }
+
+  &:disabled {
+    @include buttonDisabledStyles();
+  }
+}
+
+.icon {
+  display: flex;
+}

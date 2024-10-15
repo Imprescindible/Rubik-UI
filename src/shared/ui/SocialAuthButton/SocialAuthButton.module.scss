@@ -1,0 +1,139 @@
+.SocialAuthButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  height: 44px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.icon {
+  display: flex;
+}
+
+.googleColored {
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  color: #3f3f46;
+  border: 1px solid #d1d1d6;
+  background-color: white;
+
+  &:hover {
+    background-color: #fafafa;
+    color: #26272b;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.facebookColored {
+  background-color: #1877f2;
+  color: #fff;
+  &:hover {
+    background-color: #0c63d4;
+    color: #26272b;
+    color: #fff;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+    color: #fff;
+  }
+}
+.facebookWhite {
+  background-color: #fff;
+  border: 1px solid #d1d1d6;
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.appleColored {
+  color: #fff;
+  background-color: #000;
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.appleWhite {
+  background-color: #fff;
+  border: 1px solid #d1d1d6;
+  &:hover {
+    background-color: #fafafa;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.xColored {
+  background-color: #000;
+  color: #fff;
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.xWhite {
+  background-color: #fff;
+  border: 1px solid #d1d1d6;
+  &:hover {
+    background-color: #fafafa;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.figmaColored {
+  background-color: #000;
+  color: #fff;
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+.figmaWhite {
+  background-color: #fff;
+  &:hover {
+    background-color: #fafafa;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+
+.dribbbleColored {
+  background-color: #ea4c89;
+  color: #fff;
+  &:hover {
+    background-color: #e62872;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}
+.dribbbleWhite {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d6;
+  &:hover {
+    background-color: #fafafa;
+  }
+  &:focus {
+    box-shadow: 0px 0px 0px 4px #98a2b324;
+  }
+}

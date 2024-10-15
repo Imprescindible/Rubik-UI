@@ -1,0 +1,30 @@
+@import '@/app/styles/variables.scss';
+
+.HeaderLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 175px 12px 471px;
+  height: 48px;
+  background-color: $secondaryBackground;
+  width: 100%;
+  color: $textWhite;
+  flex-shrink: 0;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .rightSide {
+    text-align: right;
+  }
+}
+
+.languageSelect {
+  color: $textWhite;
+  background-color: $secondaryBackground;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.ButtonTest {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.heightSizeS {
+  height: 32px;
+}
+
+.heightSizeM {
+  height: 40px;
+}
+
+.heightSizeL {
+  height: 56px;
+}
+
+.backgroundVariantRed {
+  background-color: #da4445;
+}
+
+.backgroundVariantBlack {
+  background-color: black;
+}
+
+.backgroundVariantGreen {
+  background-color: #00fe67;
+}
+
+.backgroundVariantTransparent {
+  background-color: transparent;
+}
+
+.borderRadiusVariantFull {
+  border-radius: 4px;
+}
+
+.borderRadiusVariantBottom {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.textColorWhite {
+  color: white;
+}
+
+.textColorBlack {
+  color: black;
+}
+
+.isBorder {
+  border: 1px solid black;
+}

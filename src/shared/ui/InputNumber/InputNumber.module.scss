@@ -1,0 +1,13 @@
+@import '@/app/styles/variables.scss';
+
+.InputNumber {
+  display: flex;
+  width: 72px;
+  height: 44px;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid $textBlack;
+  border-radius: 4px;
+}

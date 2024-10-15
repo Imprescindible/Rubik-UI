@@ -1,0 +1,40 @@
+@import '@/app/styles/variables.scss';
+
+.SelectContainer {
+  position: relative;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  color: $textWhite;
+  background-color: $secondaryBackground;
+  position: absolute;
+  right: -21px;
+  top: 31px;
+  padding: 8px;
+  align-items: center;
+  .contentEng {
+    border-bottom: 1px solid wheat;
+    padding-bottom: 10px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    &:hover {
+      background-color: $mainBackground;
+      color: $textBlack;
+      transition: 0.7s ease-in-out;
+    }
+  }
+}

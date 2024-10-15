@@ -1,0 +1,27 @@
+@import '@/app/styles/variables.scss';
+
+.Footer {
+  height: 440px;
+  background-color: $secondaryBackground;
+  width: 100%;
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+  padding-top: 80px;
+  .column {
+    color: $textWhite;
+    h2 {
+      margin-bottom: 24px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      li {
+        input {
+          color: $textWhite;
+        }
+      }
+    }
+  }
+}
